@@ -2,10 +2,13 @@
   "name": "react-assignment-1",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Mohamed-Osama17.github.io/Start-Framework",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
