@@ -1,0 +1,23 @@
+
+$main-color: #2C3E50;
+$second-color: #1ABC9C;
+
+
+
+$colors: (
+    'LightGreen': #1ABC9C,
+    'DarkBlue': #2C3E50,
+);
+
+
+@each $key, $value in $colors {
+
+    .bg#{$key} 
+    {
+        background-color: $value;
+    }
+    .text#{$key} 
+    {
+        color: $value;
+    }
+}

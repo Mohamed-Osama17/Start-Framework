@@ -1,0 +1,23 @@
+@import '/src/_Variable.scss';
+
+
+
+
+
+
+.line {
+    // background-color: $main-color;
+    width: 80px;
+    height: 4px;
+}
+
+.layer {
+    background-color: $second-color;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.layer:hover {
+    opacity: 1;
+}
