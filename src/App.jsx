@@ -20,7 +20,7 @@ import NotFound from './Components/NotFound/NotFound';
 
 let routers = createBrowserRouter([
   {
-    path: '/', element: <Layout />, children: [
+    path: '', element: <Layout />, children: [
       { index: true, element: <About /> },
       { path: 'portfolio', element: <Portfolio /> },
       { path: 'contact', element: <Contact /> },
